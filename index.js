@@ -1,6 +1,6 @@
 const express = require('express');
 const apiRouter = require('./server');
-const cors = require('corse')
+const cors = require('cors')
 const {errorLogs, handlerError} = require('./middleware/error.handler')
 const app = express();
 const port = process.env.PORT || 3000;
