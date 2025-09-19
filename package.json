@@ -1,0 +1,32 @@
+{
+    "name": "my-api",
+    "version": "1.0.0",
+    "description": "Una breve descripción de tu proyecto",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js",
+        "lint": "eslint",
+        "test": "mocha"
+    },
+    "keywords": [],
+    "author": "Tu Nombre",
+    "license": "ISC",
+    "devDependencies": {
+        "chai": "^4.3.4",
+        "chai-http": "^4.3.0",
+        "eslint": "^9.30.1",
+        "eslint-config-prettier": "^10.1.5",
+        "eslint-plugin-prettier": "^5.5.1",
+        "mocha": "^10.5.2",
+        "nodemon": "^3.1.10",
+        "prettier": "^3.6.2"
+    },
+    "dependencies": {
+        "@hapi/boom": "^10.0.1",
+        "cors": "^2.8.5",
+        "express": "^5.1.0",
+        "faker": "^5.5.3",
+        "joi": "^18.0.1"
+    }
+}
